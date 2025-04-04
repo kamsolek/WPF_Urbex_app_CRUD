@@ -1,0 +1,62 @@
+﻿<Window x:Class="WpfUrbexApp.Views.EditPostWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Edytuj Post" Height="500" Width="600"
+        FontFamily="Segoe UI" FontSize="16"
+        WindowStartupLocation="CenterScreen">
+
+    <!-- Gradient w tle -->
+    <Window.Background>
+        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+            <GradientStop Color="#2C2C2C" Offset="0"/>
+            <GradientStop Color="#444444" Offset="0.5"/>
+            <GradientStop Color="#5A5A5A" Offset="1"/>
+        </LinearGradientBrush>
+    </Window.Background>
+
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <!-- Pole tytułu -->
+        <TextBlock Grid.Row="0" Grid.Column="0" Text="Tytuł:" Foreground="White"/>
+        <TextBox Grid.Row="0" Grid.Column="1" Name="txtTitle" Width="250"/>
+
+        <!-- Pole opisu -->
+        <TextBlock Grid.Row="1" Grid.Column="0" Text="Opis:" Foreground="White"/>
+        <TextBox Grid.Row="1" Grid.Column="1" Name="txtDescription" Width="250" Height="80" TextWrapping="Wrap"/>
+
+        <!-- Pole daty -->
+        <TextBlock Grid.Row="2" Grid.Column="0" Text="Data:" Foreground="White"/>
+        <DatePicker Grid.Row="2" Grid.Column="1" Name="dpDate"/>
+
+        <!-- Pole lokalizacji -->
+        <TextBlock Grid.Row="3" Grid.Column="0" Text="Lokalizacja:" Foreground="White"/>
+        <TextBox Grid.Row="3" Grid.Column="1" Name="txtLocation"/>
+
+        <!-- Zdjęcie -->
+        <TextBlock Grid.Row="4" Grid.Column="0" Text="Zdjęcie:" Foreground="White"/>
+        <Button Grid.Row="4" Grid.Column="1" Name="btnChooseImage" Content="Wybierz zdjęcie" Click="btnChooseImage_Click"/>
+
+        <!-- Podgląd zdjęcia -->
+        <Image Grid.Row="5" Grid.Column="0" Grid.ColumnSpan="2" Name="imgPreview" Width="200" Height="150" Stretch="Uniform" HorizontalAlignment="Center" Margin="10"/>
+
+        <!-- Przyciski na dole -->
+        <StackPanel Grid.Row="6" Grid.ColumnSpan="2" Orientation="Horizontal" HorizontalAlignment="Center" Margin="10">
+            <Button Content="Zapisz" Width="120" Height="35" Click="btnSave_Click"/>
+            <Button Content="Anuluj" Width="120" Height="35" Click="btnCancel_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>
