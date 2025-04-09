@@ -58,7 +58,7 @@ namespace WpfUrbexApp
         {
             if (lvPosts.SelectedItem is Post selectedPost)
             {
-                MessageBox.Show($"Usuwanie posta o ID: {selectedPost.Id}", "Informacja", MessageBoxButton.OK, MessageBoxImage.Information);
+                //MessageBox.Show($"Usuwanie posta o ID: {selectedPost.Id}", "Informacja", MessageBoxButton.OK, MessageBoxImage.Information);
 
                 MessageBoxResult result = MessageBox.Show("Czy na pewno chcesz usunąć ten post?", "Usuń post", MessageBoxButton.YesNo, MessageBoxImage.Question);
                 if (result == MessageBoxResult.Yes)
@@ -68,7 +68,7 @@ namespace WpfUrbexApp
                         bool isDeleted = _postRepository.DeletePost(selectedPost.Id);
                         if (isDeleted)
                         {
-                            MessageBox.Show($"Post o ID: {selectedPost.Id} został usunięty.", "Sukces", MessageBoxButton.OK, MessageBoxImage.Information);
+                            MessageBox.Show($"Post został usunięty.", "Sukces", MessageBoxButton.OK, MessageBoxImage.Information);
                         }
                         else
                         {

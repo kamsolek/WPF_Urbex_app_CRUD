@@ -5,7 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfUrbexApp"
         mc:Ignorable="d"
-        Title="Urban Exploration Blog" Height="600" Width="900">
+        Title="Urban Exploration Blog" Height="700" Width="900"
+        WindowStartupLocation="CenterScreen"
+        ResizeMode="CanResizeWithGrip"
+        Icon="icon.ico">
+
     <Window.Background>
         <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
             <GradientStop Color="#2C2C2C" Offset="0"/>
@@ -13,7 +17,8 @@
             <GradientStop Color="#5A5A5A" Offset="1"/>
         </LinearGradientBrush>
     </Window.Background>
-     
+   
+
     <Grid Margin="20">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
@@ -22,26 +27,54 @@
         </Grid.RowDefinitions>
 
         <TextBlock Grid.Row="0" Text="Urban Exploration" FontSize="24" FontWeight="Bold"
-                   Foreground="White" HorizontalAlignment="Center"/>
+                   Foreground="#ced4da" HorizontalAlignment="Center" Margin="0,0,0,15"/>
 
-        <ListView Grid.Row="1" Name="lvPosts" Margin="10" Background="Transparent"
-                  SelectionChanged="lvPosts_SelectionChanged" MouseDoubleClick="lvPosts_MouseDoubleClick">
-            <ListView.ItemTemplate>
+        <ListBox Name="lvPosts" Grid.Row="1" Width="Auto"
+         Background="Transparent"
+         SelectionChanged="lvPosts_SelectionChanged"
+         MouseDoubleClick="lvPosts_MouseDoubleClick"
+         
+                 >
+            <ListBox.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <UniformGrid Columns="4" HorizontalAlignment="Center"/>
+                    <!-- Posty obok siebie -->
+                </ItemsPanelTemplate>
+            </ListBox.ItemsPanel>
+
+            <ListBox.ItemTemplate>
                 <DataTemplate>
-                    <Border BorderBrush="Gray" BorderThickness="1" Padding="5" CornerRadius="10" Margin="5">
-                        <StackPanel Orientation="Horizontal">
-                            <Image Source="{Binding Image}" Width="50" Height="50" Margin="5"/>
-                            <TextBlock Text="{Binding Title}" FontSize="18" FontWeight="Bold" Foreground="White"/>
+                    <Border BorderBrush="Gray" BorderThickness="1" Padding="5" CornerRadius="10" Margin="5"
+                HorizontalAlignment="Center" 
+                ToolTip="Kliknij dwukrotnie myszką, aby wyświetlić szczegóły posta"
+                ToolTipService.InitialShowDelay="300" ToolTipService.ShowDuration="5000">
+                        <StackPanel Orientation="Vertical" HorizontalAlignment="Center">
+                            <Border CornerRadius="10" BorderThickness="0">
+                                <Image Source="{Binding Image}" Width="150" Height="150" Stretch="UniformToFill" Margin="5"/>
+                            </Border>
+                            <TextBlock Text="{Binding Title}" FontSize="16" FontWeight="Bold"
+                           Foreground="#ced4da" TextAlignment="Center"
+                           TextWrapping="Wrap" MaxWidth="150"/>
                         </StackPanel>
                     </Border>
                 </DataTemplate>
-            </ListView.ItemTemplate>
-        </ListView>
+            </ListBox.ItemTemplate>
+
+            <ListBox.ItemContainerStyle>
+                <Style TargetType="ListBoxItem">
+                    <Setter Property="HorizontalAlignment"
+                         Value="Center"/>
+                </Style>
+            </ListBox.ItemContainerStyle>
+            
+        </ListBox>
+
+
         <StackPanel Grid.Row="3" Orientation="Horizontal" HorizontalAlignment="Center" Margin="10">
-            <Button Name="btnCreate" Content="Dodaj Post" Width="120" Height="40" Click="btnCreate_Click" Margin="5" Background="ForestGreen"/>
-            <Button Name="btnEdit" Content="Edytuj" Width="120" Height="40" Click="btnEdit_Click" IsEnabled="False" Margin="5"/>
-            <Button Name="btnDelete" Content="Usuń" Width="120" Height="40" Click="btnDelete_Click" IsEnabled="False" Margin="5"/>
-            <Button Name="btnClose" Content="Zamknij" Width="120" Height="40" Click="btnClose_Click" Margin="5"/>
+            <Button Name="btnCreate" Content="Dodaj Post" Width="120" Height="40" Click="btnCreate_Click" Margin="5" Background="#087f5b"/>
+            <Button Name="btnEdit" Content="Edytuj" Width="120" Height="40" Click="btnEdit_Click" IsEnabled="False" Margin="5" Background="#74c0fc"/>
+            <Button Name="btnDelete" Content="Usuń" Width="120" Height="40" Click="btnDelete_Click" IsEnabled="False" Margin="5" Background="#ced4da"/>
+            <Button Name="btnClose" Content="Zamknij" Width="120" Height="40" Click="btnClose_Click" Margin="5" Background="#ff6b6b"/>
         </StackPanel>
 
     </Grid>

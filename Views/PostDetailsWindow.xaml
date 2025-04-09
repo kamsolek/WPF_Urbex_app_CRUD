@@ -1,11 +1,12 @@
 ﻿<Window x:Class="WpfUrbexApp.Views.PostDetailsWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="Szczegóły Posta" Height="400" Width="600"
-        FontFamily="Segoe UI" FontSize="16"
-        WindowStartupLocation="CenterScreen">
+        Title="Szczegóły Posta" Height="800" Width="700"
+        FontFamily="Segoe UI" FontSize="14"
+        WindowStartupLocation="CenterScreen"
+        Icon="pack://application:,,,/icon.ico"
+        ResizeMode="CanResizeWithGrip">
 
-    <!-- Gradient w tle -->
     <Window.Background>
         <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
             <GradientStop Color="#2C2C2C" Offset="0"/>
@@ -17,34 +18,43 @@
     <Grid Margin="20">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="Auto"/>
+            <!-- Tytuł -->
             <RowDefinition Height="*"/>
+            <!-- Zdjęcie -->
+            <RowDefinition Height="Auto"/>
+            <!-- Opis -->
+            <RowDefinition Height="Auto"/>
+            <!-- Data + Lokalizacja -->
+            <RowDefinition Height="Auto"/>
+            <!-- Zamknij -->
         </Grid.RowDefinitions>
 
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="2*"/>
-            <ColumnDefinition Width="*"/>
-        </Grid.ColumnDefinitions>
+        <!-- Tytuł -->
+        <TextBlock Grid.Row="0" Name="txtTitle" FontSize="22" FontWeight="Bold"
+                   Foreground="White" Margin="0,0,0,15" TextWrapping="Wrap"
+                   HorizontalAlignment="Center"/>
 
-        <!-- Pole tytułu -->
-        <TextBlock Grid.Row="0" Grid.Column="0" Text="Tytuł:" Foreground="White"/>
-        <TextBlock Grid.Row="0" Grid.Column="1" Name="txtTitle" Foreground="White"/>
+        <!-- Zdjęcie -->
+        <Viewbox Grid.Row="1" Stretch="Uniform" Margin="0,0,0,15">
+            <Image Name="imgPreview" />
+        </Viewbox>
 
-        <!-- Pole opisu -->
-        <TextBlock Grid.Row="1" Grid.Column="0" Text="Opis:" Foreground="White"/>
-        <TextBlock Grid.Row="1" Grid.Column="1" Name="txtDescription" Foreground="White" TextWrapping="Wrap"/>
+        <!-- Opis -->
+        <TextBlock Grid.Row="2" Name="txtDescription"
+                   Foreground="White" TextWrapping="Wrap" Margin="0,10,0,15" />
 
-        <!-- Pole daty -->
-        <TextBlock Grid.Row="2" Grid.Column="0" Text="Data:" Foreground="White"/>
-        <TextBlock Grid.Row="2" Grid.Column="1" Name="txtDate" Foreground="White"/>
+        <!-- Data i Lokalizacja -->
+        <StackPanel Grid.Row="3" Orientation="Horizontal" HorizontalAlignment="Left" Margin="0,0,0,15">
+            <TextBlock Text="Odwiedzono: " Foreground="White" FontWeight="Bold"/>
+            <TextBlock Name="txtDate" Foreground="White" Margin="5,0,15,0"/>
+            <TextBlock Text="Lokalizacja: " Foreground="White" FontWeight="Bold"/>
+            <TextBlock Name="txtLocation" Foreground="White" Margin="5,0,0,0"/>
+        </StackPanel>
 
-        <!-- Pole lokalizacji -->
-        <TextBlock Grid.Row="3" Grid.Column="0" Text="Lokalizacja:" Foreground="White"/>
-        <TextBlock Grid.Row="3" Grid.Column="1" Name="txtLocation" Foreground="White"/>
-
-        <!-- Podgląd zdjęcia -->
-        <Image Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="2" Name="imgPreview" Width="200" Height="150" Stretch="Uniform" HorizontalAlignment="Center" Margin="10"/>
+        <!-- Zamknij -->
+        <StackPanel Grid.Row="4" HorizontalAlignment="Right" Margin="0,10,0,0">
+            <Button Content="Zamknij" Width="120" Height="40" Click="btnClose_Click"
+                    Background="#ff6b6b" BorderThickness="0"/>
+        </StackPanel>
     </Grid>
 </Window>

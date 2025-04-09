@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kamoc\\Desktop\\STUDIA\\IV sem\\WpfUrbexApp\\WpfUrbexApp\\WpfUrbexApp.csproj": {}
+    "C:\\Users\\kamoc\\Desktop\\STUDIA\\IV sem\\urbexapp kopia git wpf\\WpfUrbexApp\\WpfUrbexApp\\WpfUrbexApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kamoc\\Desktop\\STUDIA\\IV sem\\WpfUrbexApp\\WpfUrbexApp\\WpfUrbexApp.csproj": {
+    "C:\\Users\\kamoc\\Desktop\\STUDIA\\IV sem\\urbexapp kopia git wpf\\WpfUrbexApp\\WpfUrbexApp\\WpfUrbexApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kamoc\\Desktop\\STUDIA\\IV sem\\WpfUrbexApp\\WpfUrbexApp\\WpfUrbexApp.csproj",
+        "projectUniqueName": "C:\\Users\\kamoc\\Desktop\\STUDIA\\IV sem\\urbexapp kopia git wpf\\WpfUrbexApp\\WpfUrbexApp\\WpfUrbexApp.csproj",
         "projectName": "WpfUrbexApp",
-        "projectPath": "C:\\Users\\kamoc\\Desktop\\STUDIA\\IV sem\\WpfUrbexApp\\WpfUrbexApp\\WpfUrbexApp.csproj",
+        "projectPath": "C:\\Users\\kamoc\\Desktop\\STUDIA\\IV sem\\urbexapp kopia git wpf\\WpfUrbexApp\\WpfUrbexApp\\WpfUrbexApp.csproj",
         "packagesPath": "C:\\Users\\kamoc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kamoc\\Desktop\\STUDIA\\IV sem\\WpfUrbexApp\\WpfUrbexApp\\obj\\",
+        "outputPath": "C:\\Users\\kamoc\\Desktop\\STUDIA\\IV sem\\urbexapp kopia git wpf\\WpfUrbexApp\\WpfUrbexApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

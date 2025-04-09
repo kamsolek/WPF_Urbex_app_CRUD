@@ -13,6 +13,10 @@ namespace WpfUrbexApp.Views
             InitializeComponent();
             LoadPostData(post);
         }
+        private void btnClose_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+        }
 
         private void LoadPostData(Post post)
         {

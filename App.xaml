@@ -3,7 +3,38 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:local="clr-namespace:WpfUrbexApp"
              StartupUri="MainWindow.xaml">
+
     <Application.Resources>
-         
+        
+        
+        <!-- Definicja czcionki Oswald -->
+        <FontFamily x:Key="OswaldFont">pack://application:,,,/Oswald-Regular.ttf#Oswald</FontFamily>
+
+        <!-- Globalny styl dla TextBlock -->
+        <Style TargetType="TextBlock">
+            <Setter Property="FontFamily" Value="{StaticResource OswaldFont}"/>
+            <Setter Property="FontSize" Value="16"/>
+            <Setter Property="Foreground" Value="#333333"/>
+        </Style>
+
+        <!-- Globalny styl dla TextBox -->
+        <Style TargetType="TextBox">
+            <Setter Property="FontFamily" Value="{StaticResource OswaldFont}"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="Foreground" Value="#333333"/>
+            <Setter Property="Background" Value="#333333"/>
+        </Style>
+
+        <!-- Globalny styl dla Button -->
+        <Style TargetType="Button">
+            <Setter Property="FontFamily" Value="{StaticResource OswaldFont}"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="Foreground" Value="#333333"/>
+            <Setter Property="Padding" Value="10,5"/>
+        </Style>
+
     </Application.Resources>
+    
+    
+
 </Application>

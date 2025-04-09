@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WpfUrbexApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c5f1740d5c67f5c14c87eb0f904b92ce6ea5a9dd")]
 [assembly: System.Reflection.AssemblyProductAttribute("WpfUrbexApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WpfUrbexApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

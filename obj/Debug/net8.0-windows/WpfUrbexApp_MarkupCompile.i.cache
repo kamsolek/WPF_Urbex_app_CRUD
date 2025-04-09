@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\kamoc\Desktop\STUDIA\IV sem\WpfUrbexApp\WpfUrbexApp\obj\Debug\net8.0-windows\
+C:\Users\kamoc\Desktop\STUDIA\IV sem\urbexapp kopia git wpf\WpfUrbexApp\WpfUrbexApp\obj\Debug\net8.0-windows\
 WpfUrbexApp
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
-C:\Users\kamoc\Desktop\STUDIA\IV sem\WpfUrbexApp\WpfUrbexApp\App.xaml
+C:\Users\kamoc\Desktop\STUDIA\IV sem\urbexapp kopia git wpf\WpfUrbexApp\WpfUrbexApp\App.xaml
 41550407793
 
 122060393611
 2071797856114
 MainWindow.xaml;Views\CreatePostWindow.xaml;Views\EditPostWindow.xaml;Views\PostDetailsWindow.xaml;
 
-False
+True
 

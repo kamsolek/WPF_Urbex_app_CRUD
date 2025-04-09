@@ -113,20 +113,6 @@ namespace WpfUrbexApp.Repositories
             {
                 connection.Open();
 
-               /* // SPRAWDZAMY CZY ID ISTNIEJE
-                string checkQuery = "SELECT COUNT(*) FROM Posts WHERE Id=@Id";
-                using (var checkCommand = new SQLiteCommand(checkQuery, connection))
-                {
-                    checkCommand.Parameters.AddWithValue("@Id", postId);
-                    int count = Convert.ToInt32(checkCommand.ExecuteScalar());
-
-                    if (count == 0) // Jeśli brak wpisu
-                    {
-                        Console.WriteLine($"Nie znaleziono posta o ID: {postId}");
-                        return false;
-                    }
-                }*/
-
                 // WYKONUJEMY USUNIĘCIE
                 string deleteQuery = "DELETE FROM Posts WHERE Id=@Id";
                 using (var command = new SQLiteCommand(deleteQuery, connection))

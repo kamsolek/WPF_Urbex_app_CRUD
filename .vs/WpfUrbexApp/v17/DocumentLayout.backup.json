@@ -1,60 +1,67 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\kamoc\\Desktop\\STUDIA\\IV sem\\WpfUrbexApp\\WpfUrbexApp\\",
+  "WorkspaceRootPath": "C:\\Users\\kamoc\\Desktop\\STUDIA\\IV sem\\urbexapp kopia git wpf\\WpfUrbexApp\\WpfUrbexApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4063234D-C9D7-4661-B195-CA959035F8E2}|WpfUrbexApp.csproj|c:\\users\\kamoc\\desktop\\studia\\iv sem\\wpfurbexapp\\wpfurbexapp\\utility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4063234D-C9D7-4661-B195-CA959035F8E2}|WpfUrbexApp.csproj|solutionrelative:utility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4063234D-C9D7-4661-B195-CA959035F8E2}|WpfUrbexApp.csproj|c:\\users\\kamoc\\desktop\\studia\\iv sem\\wpfurbexapp\\wpfurbexapp\\repositories\\postrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4063234D-C9D7-4661-B195-CA959035F8E2}|WpfUrbexApp.csproj|solutionrelative:repositories\\postrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4063234D-C9D7-4661-B195-CA959035F8E2}|WpfUrbexApp.csproj|c:\\users\\kamoc\\desktop\\studia\\iv sem\\wpfurbexapp\\wpfurbexapp\\models\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4063234D-C9D7-4661-B195-CA959035F8E2}|WpfUrbexApp.csproj|solutionrelative:models\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4063234D-C9D7-4661-B195-CA959035F8E2}|WpfUrbexApp.csproj|c:\\users\\kamoc\\desktop\\studia\\iv sem\\wpfurbexapp\\wpfurbexapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{4063234D-C9D7-4661-B195-CA959035F8E2}|WpfUrbexApp.csproj|c:\\users\\kamoc\\desktop\\studia\\iv sem\\urbexapp kopia git wpf\\wpfurbexapp\\wpfurbexapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{4063234D-C9D7-4661-B195-CA959035F8E2}|WpfUrbexApp.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4063234D-C9D7-4661-B195-CA959035F8E2}|WpfUrbexApp.csproj|c:\\users\\kamoc\\desktop\\studia\\iv sem\\wpfurbexapp\\wpfurbexapp\\views\\createpostwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{4063234D-C9D7-4661-B195-CA959035F8E2}|WpfUrbexApp.csproj|c:\\users\\kamoc\\desktop\\studia\\iv sem\\urbexapp kopia git wpf\\wpfurbexapp\\wpfurbexapp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4063234D-C9D7-4661-B195-CA959035F8E2}|WpfUrbexApp.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4063234D-C9D7-4661-B195-CA959035F8E2}|WpfUrbexApp.csproj|c:\\users\\kamoc\\desktop\\studia\\iv sem\\urbexapp kopia git wpf\\wpfurbexapp\\wpfurbexapp\\views\\createpostwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{4063234D-C9D7-4661-B195-CA959035F8E2}|WpfUrbexApp.csproj|solutionrelative:views\\createpostwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4063234D-C9D7-4661-B195-CA959035F8E2}|WpfUrbexApp.csproj|c:\\users\\kamoc\\desktop\\studia\\iv sem\\wpfurbexapp\\wpfurbexapp\\views\\createpostwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4063234D-C9D7-4661-B195-CA959035F8E2}|WpfUrbexApp.csproj|solutionrelative:views\\createpostwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4063234D-C9D7-4661-B195-CA959035F8E2}|WpfUrbexApp.csproj|c:\\users\\kamoc\\desktop\\studia\\iv sem\\wpfurbexapp\\wpfurbexapp\\views\\postdetailswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4063234D-C9D7-4661-B195-CA959035F8E2}|WpfUrbexApp.csproj|solutionrelative:views\\postdetailswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4063234D-C9D7-4661-B195-CA959035F8E2}|WpfUrbexApp.csproj|c:\\users\\kamoc\\desktop\\studia\\iv sem\\wpfurbexapp\\wpfurbexapp\\views\\editpostwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4063234D-C9D7-4661-B195-CA959035F8E2}|WpfUrbexApp.csproj|solutionrelative:views\\editpostwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4063234D-C9D7-4661-B195-CA959035F8E2}|WpfUrbexApp.csproj|c:\\users\\kamoc\\desktop\\studia\\iv sem\\wpfurbexapp\\wpfurbexapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4063234D-C9D7-4661-B195-CA959035F8E2}|WpfUrbexApp.csproj|c:\\users\\kamoc\\desktop\\studia\\iv sem\\urbexapp kopia git wpf\\wpfurbexapp\\wpfurbexapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4063234D-C9D7-4661-B195-CA959035F8E2}|WpfUrbexApp.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4063234D-C9D7-4661-B195-CA959035F8E2}|WpfUrbexApp.csproj|c:\\users\\kamoc\\desktop\\studia\\iv sem\\wpfurbexapp\\wpfurbexapp\\views\\editpostwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{4063234D-C9D7-4661-B195-CA959035F8E2}|WpfUrbexApp.csproj|c:\\users\\kamoc\\desktop\\studia\\iv sem\\urbexapp kopia git wpf\\wpfurbexapp\\wpfurbexapp\\views\\editpostwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4063234D-C9D7-4661-B195-CA959035F8E2}|WpfUrbexApp.csproj|solutionrelative:views\\editpostwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4063234D-C9D7-4661-B195-CA959035F8E2}|WpfUrbexApp.csproj|c:\\users\\kamoc\\desktop\\studia\\iv sem\\urbexapp kopia git wpf\\wpfurbexapp\\wpfurbexapp\\views\\editpostwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{4063234D-C9D7-4661-B195-CA959035F8E2}|WpfUrbexApp.csproj|solutionrelative:views\\editpostwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4063234D-C9D7-4661-B195-CA959035F8E2}|WpfUrbexApp.csproj|c:\\users\\kamoc\\desktop\\studia\\iv sem\\wpfurbexapp\\wpfurbexapp\\views\\postdetailswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{4063234D-C9D7-4661-B195-CA959035F8E2}|WpfUrbexApp.csproj|c:\\users\\kamoc\\desktop\\studia\\iv sem\\urbexapp kopia git wpf\\wpfurbexapp\\wpfurbexapp\\views\\createpostwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4063234D-C9D7-4661-B195-CA959035F8E2}|WpfUrbexApp.csproj|solutionrelative:views\\createpostwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4063234D-C9D7-4661-B195-CA959035F8E2}|WpfUrbexApp.csproj|c:\\users\\kamoc\\desktop\\studia\\iv sem\\urbexapp kopia git wpf\\wpfurbexapp\\wpfurbexapp\\views\\postdetailswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{4063234D-C9D7-4661-B195-CA959035F8E2}|WpfUrbexApp.csproj|solutionrelative:views\\postdetailswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4063234D-C9D7-4661-B195-CA959035F8E2}|WpfUrbexApp.csproj|c:\\users\\kamoc\\desktop\\studia\\iv sem\\urbexapp kopia git wpf\\wpfurbexapp\\wpfurbexapp\\repositories\\postrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4063234D-C9D7-4661-B195-CA959035F8E2}|WpfUrbexApp.csproj|solutionrelative:repositories\\postrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4063234D-C9D7-4661-B195-CA959035F8E2}|WpfUrbexApp.csproj|c:\\users\\kamoc\\desktop\\studia\\iv sem\\urbexapp kopia git wpf\\wpfurbexapp\\wpfurbexapp\\utility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4063234D-C9D7-4661-B195-CA959035F8E2}|WpfUrbexApp.csproj|solutionrelative:utility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kamoc\\AppData\\Local\\Temp\\.vsdbgsrc\\0a84cc53936b314ba955b54f50bf4796d8234943f3fd7b93873381b45d404026\\XamlReader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4063234D-C9D7-4661-B195-CA959035F8E2}|WpfUrbexApp.csproj|c:\\users\\kamoc\\desktop\\studia\\iv sem\\urbexapp kopia git wpf\\wpfurbexapp\\wpfurbexapp\\views\\postdetailswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4063234D-C9D7-4661-B195-CA959035F8E2}|WpfUrbexApp.csproj|solutionrelative:views\\postdetailswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4063234D-C9D7-4661-B195-CA959035F8E2}|WpfUrbexApp.csproj|c:\\users\\kamoc\\desktop\\studia\\iv sem\\urbexapp kopia git wpf\\wpfurbexapp\\wpfurbexapp\\models\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4063234D-C9D7-4661-B195-CA959035F8E2}|WpfUrbexApp.csproj|solutionrelative:models\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
-      "VerticalTabListWidth": 213,
+      "VerticalTabListWidth": 132,
       "DocumentGroups": [
         {
           "DockedWidth": 409,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 12,
           "Children": [
             {
               "$type": "Bookmark",
@@ -62,11 +69,35 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 10,
+              "Title": "XamlReader.cs",
+              "DocumentMoniker": "C:\\Users\\kamoc\\AppData\\Local\\Temp\\.vsdbgsrc\\0a84cc53936b314ba955b54f50bf4796d8234943f3fd7b93873381b45d404026\\XamlReader.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\0a84cc53936b314ba955b54f50bf4796d8234943f3fd7b93873381b45d404026\\XamlReader.cs",
+              "ToolTip": "C:\\Users\\kamoc\\AppData\\Local\\Temp\\.vsdbgsrc\\0a84cc53936b314ba955b54f50bf4796d8234943f3fd7b93873381b45d404026\\XamlReader.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\0a84cc53936b314ba955b54f50bf4796d8234943f3fd7b93873381b45d404026\\XamlReader.cs",
+              "ViewState": "AgIAAKcBAAAAAAAAAIAwwLUBAAACAAAAAQAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T12:34:23.74Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\kamoc\\Desktop\\STUDIA\\IV sem\\urbexapp kopia git wpf\\WpfUrbexApp\\WpfUrbexApp\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "C:\\Users\\kamoc\\Desktop\\STUDIA\\IV sem\\urbexapp kopia git wpf\\WpfUrbexApp\\WpfUrbexApp\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-04T12:34:01.554Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "Utility.cs",
-              "DocumentMoniker": "C:\\Users\\kamoc\\Desktop\\STUDIA\\IV sem\\WpfUrbexApp\\WpfUrbexApp\\Utility.cs",
+              "DocumentMoniker": "C:\\Users\\kamoc\\Desktop\\STUDIA\\IV sem\\urbexapp kopia git wpf\\WpfUrbexApp\\WpfUrbexApp\\Utility.cs",
               "RelativeDocumentMoniker": "Utility.cs",
-              "ToolTip": "C:\\Users\\kamoc\\Desktop\\STUDIA\\IV sem\\WpfUrbexApp\\WpfUrbexApp\\Utility.cs",
+              "ToolTip": "C:\\Users\\kamoc\\Desktop\\STUDIA\\IV sem\\urbexapp kopia git wpf\\WpfUrbexApp\\WpfUrbexApp\\Utility.cs",
               "RelativeToolTip": "Utility.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -75,106 +106,110 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "PostDetailsWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\kamoc\\Desktop\\STUDIA\\IV sem\\WpfUrbexApp\\WpfUrbexApp\\Views\\PostDetailsWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\kamoc\\Desktop\\STUDIA\\IV sem\\urbexapp kopia git wpf\\WpfUrbexApp\\WpfUrbexApp\\Views\\PostDetailsWindow.xaml.cs",
               "RelativeDocumentMoniker": "Views\\PostDetailsWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\kamoc\\Desktop\\STUDIA\\IV sem\\WpfUrbexApp\\WpfUrbexApp\\Views\\PostDetailsWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\kamoc\\Desktop\\STUDIA\\IV sem\\urbexapp kopia git wpf\\WpfUrbexApp\\WpfUrbexApp\\Views\\PostDetailsWindow.xaml.cs",
               "RelativeToolTip": "Views\\PostDetailsWindow.xaml.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAQwB4AAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAwBMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-03T18:59:12.382Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 7,
               "Title": "PostDetailsWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\kamoc\\Desktop\\STUDIA\\IV sem\\WpfUrbexApp\\WpfUrbexApp\\Views\\PostDetailsWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\kamoc\\Desktop\\STUDIA\\IV sem\\urbexapp kopia git wpf\\WpfUrbexApp\\WpfUrbexApp\\Views\\PostDetailsWindow.xaml",
               "RelativeDocumentMoniker": "Views\\PostDetailsWindow.xaml",
-              "ToolTip": "C:\\Users\\kamoc\\Desktop\\STUDIA\\IV sem\\WpfUrbexApp\\WpfUrbexApp\\Views\\PostDetailsWindow.xaml",
+              "ToolTip": "C:\\Users\\kamoc\\Desktop\\STUDIA\\IV sem\\urbexapp kopia git wpf\\WpfUrbexApp\\WpfUrbexApp\\Views\\PostDetailsWindow.xaml",
               "RelativeToolTip": "Views\\PostDetailsWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-03T18:59:05.109Z"
+              "WhenOpened": "2025-04-03T18:59:05.109Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
               "Title": "EditPostWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\kamoc\\Desktop\\STUDIA\\IV sem\\WpfUrbexApp\\WpfUrbexApp\\Views\\EditPostWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\kamoc\\Desktop\\STUDIA\\IV sem\\urbexapp kopia git wpf\\WpfUrbexApp\\WpfUrbexApp\\Views\\EditPostWindow.xaml.cs",
               "RelativeDocumentMoniker": "Views\\EditPostWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\kamoc\\Desktop\\STUDIA\\IV sem\\WpfUrbexApp\\WpfUrbexApp\\Views\\EditPostWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\kamoc\\Desktop\\STUDIA\\IV sem\\urbexapp kopia git wpf\\WpfUrbexApp\\WpfUrbexApp\\Views\\EditPostWindow.xaml.cs",
               "RelativeToolTip": "Views\\EditPostWindow.xaml.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAgwDgAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAQwBMAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T18:47:32.389Z"
+              "WhenOpened": "2025-04-03T18:47:32.389Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
               "Title": "PostRepository.cs",
-              "DocumentMoniker": "C:\\Users\\kamoc\\Desktop\\STUDIA\\IV sem\\WpfUrbexApp\\WpfUrbexApp\\Repositories\\PostRepository.cs",
+              "DocumentMoniker": "C:\\Users\\kamoc\\Desktop\\STUDIA\\IV sem\\urbexapp kopia git wpf\\WpfUrbexApp\\WpfUrbexApp\\Repositories\\PostRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\PostRepository.cs",
-              "ToolTip": "C:\\Users\\kamoc\\Desktop\\STUDIA\\IV sem\\WpfUrbexApp\\WpfUrbexApp\\Repositories\\PostRepository.cs",
+              "ToolTip": "C:\\Users\\kamoc\\Desktop\\STUDIA\\IV sem\\urbexapp kopia git wpf\\WpfUrbexApp\\WpfUrbexApp\\Repositories\\PostRepository.cs",
               "RelativeToolTip": "Repositories\\PostRepository.cs",
-              "ViewState": "AgIAAFEAAAAAAAAAAAAgwF8AAACFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFEAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-03T14:25:49.581Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "CreatePostWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\kamoc\\Desktop\\STUDIA\\IV sem\\WpfUrbexApp\\WpfUrbexApp\\Views\\CreatePostWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\kamoc\\Desktop\\STUDIA\\IV sem\\urbexapp kopia git wpf\\WpfUrbexApp\\WpfUrbexApp\\Views\\CreatePostWindow.xaml.cs",
               "RelativeDocumentMoniker": "Views\\CreatePostWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\kamoc\\Desktop\\STUDIA\\IV sem\\WpfUrbexApp\\WpfUrbexApp\\Views\\CreatePostWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\kamoc\\Desktop\\STUDIA\\IV sem\\urbexapp kopia git wpf\\WpfUrbexApp\\WpfUrbexApp\\Views\\CreatePostWindow.xaml.cs",
               "RelativeToolTip": "Views\\CreatePostWindow.xaml.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAAwDQAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAAADQAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T13:50:24.213Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CreatePostWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\kamoc\\Desktop\\STUDIA\\IV sem\\WpfUrbexApp\\WpfUrbexApp\\Views\\CreatePostWindow.xaml",
-              "RelativeDocumentMoniker": "Views\\CreatePostWindow.xaml",
-              "ToolTip": "C:\\Users\\kamoc\\Desktop\\STUDIA\\IV sem\\WpfUrbexApp\\WpfUrbexApp\\Views\\CreatePostWindow.xaml",
-              "RelativeToolTip": "Views\\CreatePostWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-03T13:46:54.771Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "EditPostWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\kamoc\\Desktop\\STUDIA\\IV sem\\WpfUrbexApp\\WpfUrbexApp\\Views\\EditPostWindow.xaml",
-              "RelativeDocumentMoniker": "Views\\EditPostWindow.xaml",
-              "ToolTip": "C:\\Users\\kamoc\\Desktop\\STUDIA\\IV sem\\WpfUrbexApp\\WpfUrbexApp\\Views\\EditPostWindow.xaml",
-              "RelativeToolTip": "Views\\EditPostWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-03T13:46:38.246Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Post.cs",
-              "DocumentMoniker": "C:\\Users\\kamoc\\Desktop\\STUDIA\\IV sem\\WpfUrbexApp\\WpfUrbexApp\\Models\\Post.cs",
-              "RelativeDocumentMoniker": "Models\\Post.cs",
-              "ToolTip": "C:\\Users\\kamoc\\Desktop\\STUDIA\\IV sem\\WpfUrbexApp\\WpfUrbexApp\\Models\\Post.cs",
-              "RelativeToolTip": "Models\\Post.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T13:24:31.632Z",
+              "WhenOpened": "2025-04-03T13:50:24.213Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
+              "Title": "CreatePostWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\kamoc\\Desktop\\STUDIA\\IV sem\\urbexapp kopia git wpf\\WpfUrbexApp\\WpfUrbexApp\\Views\\CreatePostWindow.xaml",
+              "RelativeDocumentMoniker": "Views\\CreatePostWindow.xaml",
+              "ToolTip": "C:\\Users\\kamoc\\Desktop\\STUDIA\\IV sem\\urbexapp kopia git wpf\\WpfUrbexApp\\WpfUrbexApp\\Views\\CreatePostWindow.xaml",
+              "RelativeToolTip": "Views\\CreatePostWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-03T13:46:54.771Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EditPostWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\kamoc\\Desktop\\STUDIA\\IV sem\\urbexapp kopia git wpf\\WpfUrbexApp\\WpfUrbexApp\\Views\\EditPostWindow.xaml",
+              "RelativeDocumentMoniker": "Views\\EditPostWindow.xaml",
+              "ToolTip": "C:\\Users\\kamoc\\Desktop\\STUDIA\\IV sem\\urbexapp kopia git wpf\\WpfUrbexApp\\WpfUrbexApp\\Views\\EditPostWindow.xaml",
+              "RelativeToolTip": "Views\\EditPostWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-03T13:46:38.246Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Post.cs",
+              "DocumentMoniker": "C:\\Users\\kamoc\\Desktop\\STUDIA\\IV sem\\urbexapp kopia git wpf\\WpfUrbexApp\\WpfUrbexApp\\Models\\Post.cs",
+              "RelativeDocumentMoniker": "Models\\Post.cs",
+              "ToolTip": "C:\\Users\\kamoc\\Desktop\\STUDIA\\IV sem\\urbexapp kopia git wpf\\WpfUrbexApp\\WpfUrbexApp\\Models\\Post.cs",
+              "RelativeToolTip": "Models\\Post.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T13:24:31.632Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\kamoc\\Desktop\\STUDIA\\IV sem\\WpfUrbexApp\\WpfUrbexApp\\MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\kamoc\\Desktop\\STUDIA\\IV sem\\urbexapp kopia git wpf\\WpfUrbexApp\\WpfUrbexApp\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainWindow.xaml",
-              "ToolTip": "C:\\Users\\kamoc\\Desktop\\STUDIA\\IV sem\\WpfUrbexApp\\WpfUrbexApp\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\kamoc\\Desktop\\STUDIA\\IV sem\\urbexapp kopia git wpf\\WpfUrbexApp\\WpfUrbexApp\\MainWindow.xaml",
               "RelativeToolTip": "MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-04-03T13:18:29.665Z",
@@ -182,15 +217,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 3,
               "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\kamoc\\Desktop\\STUDIA\\IV sem\\WpfUrbexApp\\WpfUrbexApp\\MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\kamoc\\Desktop\\STUDIA\\IV sem\\urbexapp kopia git wpf\\WpfUrbexApp\\WpfUrbexApp\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\kamoc\\Desktop\\STUDIA\\IV sem\\WpfUrbexApp\\WpfUrbexApp\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\kamoc\\Desktop\\STUDIA\\IV sem\\urbexapp kopia git wpf\\WpfUrbexApp\\WpfUrbexApp\\MainWindow.xaml.cs",
               "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAgwCUAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAAAEYAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T13:18:29.608Z"
+              "WhenOpened": "2025-04-03T13:18:29.608Z",
+              "EditorCaption": ""
             }
           ]
         }
