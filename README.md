@@ -1,4 +1,4 @@
-# 🌆 Urban Exploration Forum App
+# 🌆 Urban Exploration Blog App
 
 Simple WPF desktop application for urban exploration enthusiasts. Users can create posts about abandoned places, including a title, description, location, date added, and a photo. All data is saved locally using a SQLite database.
 
@@ -31,4 +31,4 @@ Simple WPF desktop application for urban exploration enthusiasts. Users can crea
 
 ## 📌 Status
 
-Project under development 🚧
+Project finished
