@@ -26,15 +26,15 @@
             <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
 
-        <TextBlock Grid.Row="0" Text="Urban Exploration" FontSize="24" FontWeight="Bold"
+        <TextBlock Grid.Row="0" Text="Urban Exploration Blog" FontSize="24" FontWeight="Bold"
                    Foreground="#ced4da" HorizontalAlignment="Center" Margin="0,0,0,15"/>
 
-        <ListBox Name="lvPosts" Grid.Row="1" Width="Auto"
+        <ListBox Name="lbPosts" Grid.Row="1"
          Background="Transparent"
-         SelectionChanged="lvPosts_SelectionChanged"
-         MouseDoubleClick="lvPosts_MouseDoubleClick"
-         
-                 >
+         SelectionChanged="lbPosts_SelectionChanged"
+         MouseDoubleClick="lbPosts_MouseDoubleClick"
+         HorizontalAlignment="Center"
+         VerticalAlignment="Top">
             <ListBox.ItemsPanel>
                 <ItemsPanelTemplate>
                     <UniformGrid Columns="4" HorizontalAlignment="Center"/>
@@ -45,16 +45,16 @@
             <ListBox.ItemTemplate>
                 <DataTemplate>
                     <Border BorderBrush="Gray" BorderThickness="1" Padding="5" CornerRadius="10" Margin="5"
-                HorizontalAlignment="Center" 
-                ToolTip="Kliknij dwukrotnie myszką, aby wyświetlić szczegóły posta"
-                ToolTipService.InitialShowDelay="300" ToolTipService.ShowDuration="5000">
+                    HorizontalAlignment="Center" 
+                    ToolTip="Kliknij dwukrotnie myszką, aby wyświetlić szczegóły posta"
+                    ToolTipService.InitialShowDelay="300" ToolTipService.ShowDuration="5000">
                         <StackPanel Orientation="Vertical" HorizontalAlignment="Center">
                             <Border CornerRadius="10" BorderThickness="0">
                                 <Image Source="{Binding Image}" Width="150" Height="150" Stretch="UniformToFill" Margin="5"/>
                             </Border>
                             <TextBlock Text="{Binding Title}" FontSize="16" FontWeight="Bold"
-                           Foreground="#ced4da" TextAlignment="Center"
-                           TextWrapping="Wrap" MaxWidth="150"/>
+                               Foreground="#ced4da" TextAlignment="Center"
+                               TextWrapping="Wrap" MaxWidth="150"/>
                         </StackPanel>
                     </Border>
                 </DataTemplate>
@@ -62,12 +62,11 @@
 
             <ListBox.ItemContainerStyle>
                 <Style TargetType="ListBoxItem">
-                    <Setter Property="HorizontalAlignment"
-                         Value="Center"/>
+                    <Setter Property="HorizontalAlignment" Value="Center"/>
                 </Style>
             </ListBox.ItemContainerStyle>
-            
         </ListBox>
+
 
 
         <StackPanel Grid.Row="3" Orientation="Horizontal" HorizontalAlignment="Center" Margin="10">

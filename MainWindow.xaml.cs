@@ -31,8 +31,8 @@ namespace WpfUrbexApp
         private void LoadPosts()
         {
             _posts = _postRepository.GetAllPosts();
-            lvPosts.ItemsSource = null; // Wyczyść dane
-            lvPosts.ItemsSource = _posts; // Załaduj ponownie
+            lbPosts.ItemsSource = null; // Wyczyść dane
+            lbPosts.ItemsSource = _posts; // Załaduj ponownie
         }
 
         
@@ -46,7 +46,7 @@ namespace WpfUrbexApp
 
         private void btnEdit_Click(object sender, RoutedEventArgs e)
         {
-            if (lvPosts.SelectedItem is Post selectedPost)
+            if (lbPosts.SelectedItem is Post selectedPost)
             {
                 EditPostWindow editWindow = new EditPostWindow(selectedPost);
                 editWindow.ShowDialog();
@@ -56,7 +56,7 @@ namespace WpfUrbexApp
 
         private void btnDelete_Click(object sender, RoutedEventArgs e)
         {
-            if (lvPosts.SelectedItem is Post selectedPost)
+            if (lbPosts.SelectedItem is Post selectedPost)
             {
                 //MessageBox.Show($"Usuwanie posta o ID: {selectedPost.Id}", "Informacja", MessageBoxButton.OK, MessageBoxImage.Information);
 
@@ -89,9 +89,9 @@ namespace WpfUrbexApp
         }
 
 
-        private void lvPosts_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        private void lbPosts_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            if (lvPosts.SelectedItem != null)
+            if (lbPosts.SelectedItem != null)
             {
                 btnEdit.IsEnabled = true;
                 btnDelete.IsEnabled = true;
@@ -108,9 +108,9 @@ namespace WpfUrbexApp
             Close();
         }
 
-        private void lvPosts_MouseDoubleClick(object sender, MouseButtonEventArgs e)
+        private void lbPosts_MouseDoubleClick(object sender, MouseButtonEventArgs e)
         {
-            if (lvPosts.SelectedItem is Post selectedPost)
+            if (lbPosts.SelectedItem is Post selectedPost)
             {
                 PostDetailsWindow detailsWindow = new PostDetailsWindow(selectedPost);
                 detailsWindow.ShowDialog();
